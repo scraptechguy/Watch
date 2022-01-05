@@ -5,6 +5,10 @@
 //  Created by Rostislav Brož on 1/4/22.
 //
 
+// HomeView can't use preview provider as it does not know the value
+// of model.authorizationState
+
+
 import SwiftUI
 
 
@@ -13,7 +17,7 @@ import SwiftUI
 let screenSize: CGRect = UIScreen.main.bounds
 
 
-//
+// declaration of UI colors
 
 public var white = Color(red: 1, green: 1, blue: 1)
 public var black = Color(red: 0.004, green: 0, blue: 0)
