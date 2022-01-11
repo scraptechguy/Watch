@@ -29,6 +29,7 @@
 		906271B727842E5A002C202A /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		906271B927842E65002C202A /* DeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeniedView.swift; sourceTree = "<group>"; };
 		906271BC27842E92002C202A /* MenuSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSheetView.swift; sourceTree = "<group>"; };
+		90ADEEA62785B4890030212C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		900CF7AD2783213C00649193 /* Watch */ = {
 			isa = PBXGroup;
 			children = (
+				90ADEEA62785B4890030212C /* Info.plist */,
 				900CF7AE2783213C00649193 /* WatchApp.swift */,
 				906271AF27842C59002C202A /* Views */,
 				906271BB27842E6F002C202A /* SheetViews */,
@@ -316,7 +318,9 @@
 				DEVELOPMENT_TEAM = H4NW3RCM58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Watch! needs to know your location to show you relevant information";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Watch! needs to know your location to show you relevant information";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,7 +350,9 @@
 				DEVELOPMENT_TEAM = H4NW3RCM58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_FILE = Watch/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Watch! needs to know your location to show you relevant information";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Watch! needs to know your location to show you relevant information";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
