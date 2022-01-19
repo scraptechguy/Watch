@@ -15,3 +15,5 @@ Watch! is currently in active development
 ### Latest TestFlight release:
 
 Click <a href="">here</a> or use the Redeem Code: <b>bla bla bla</b>
+
+## Groundwork
