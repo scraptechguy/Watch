@@ -32,10 +32,15 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
         locationManager.requestWhenInUseAuthorization()
     }
     
+    func requestGeolocationPermission() {
+        // Request permission from the user
+        
+        locationManager.requestWhenInUseAuthorization()
+    }
+    
     // Location manager delegate methods
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        
         // Update the authorizationState var
         
         authorizationState = locationManager.authorizationStatus
